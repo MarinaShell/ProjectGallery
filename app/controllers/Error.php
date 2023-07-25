@@ -4,8 +4,8 @@ namespace App\controllers;
 
 use App\core\Controller;
 
-class Admin extends Controller{
+class Error extends Controller{
     public function index(){
-        $this->view->generate('home.php', 'main.php');
+        $this->view->generate('error.php', 'main.php');
     }
 }
